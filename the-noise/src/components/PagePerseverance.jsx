@@ -45,7 +45,7 @@ function PerseverancePage() {
       </Frame>
       <ContainerText>
       <RoverName>Perseverance</RoverName>
-      <p>Curiosity biggest dream was always to be a superstar. Of course today she's quite famous thanks to her mars mission but she always wanted to be a PopStar. Now that she's given the chance to become one she will let nobody stand in front of her dream. #TeamCuriosity</p>
+      <p>Perseverance biggest dream was always to be a superstar. Of course today she's quite famous thanks to her mars mission but she always wanted to be a PopStar. Now that she's given the chance to become one she will let nobody stand in front of her dream. #TeamPerseverance</p>
        </ContainerText>
     </ContainerCard>
     </div>
