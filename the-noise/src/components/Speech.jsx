@@ -1,9 +1,7 @@
 import React from 'react';
 
-function Example() {
-  const utterance = new SpeechSynthesisUtterance(
-    'la place de la femme cest à la cuisine'
-  );
+function Example({ song }) {
+  const utterance = new SpeechSynthesisUtterance({ song });
   utterance.lang = 'fr-FR';
   utterance.rate = 10;
   utterance.pitch = 1.5;
