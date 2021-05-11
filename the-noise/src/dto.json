@@ -1,0 +1,273 @@
+{
+  "rovers": [
+    {
+      "traverseMap": [
+        {
+          "text": "Curiosity Traverse Map",
+          "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23412.jpg"
+        },
+        {
+          "text": "Opportunity Traverse Map",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Opportunity_rover_lifetime_progress_map.jpg/400px-Opportunity_rover_lifetime_progress_map.jpg"
+        },
+        {
+          "text": "Perseverance Traverse Map",
+          "image": "https://i.postimg.cc/hv5gfk3R/good45798-PIA24486-Drive-Map.png"
+        },
+        {
+          "text": "Spirit Traverse Map",
+          "image": "https://i.postimg.cc/mZ3k2kwT/Spirit-Traverse-Map.jpg"
+        },
+        {
+          "text": "Total rovers on Mars",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/PIA24320-MarsLandingSites-20201216.jpg/600px-PIA24320-MarsLandingSites-20201216.jpg"
+        }
+      ],
+      "curiosity": {
+        "id": 1,
+        "name": "Curiosity",
+        "iframe": "https://mars.nasa.gov/gltf_embed/24584",
+        "img": "/curiosity.jpg",
+        "text": "Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes? Early in its mission, Curiositys scientific tools found chemical and mineral evidence of past habitable environments on Mars. It continues to explore the rock record from a time when Mars could have been home to microbial life.",
+        "mission": {
+          "title1": "Curiosity Rover Science Surveying Gale Crater Curiosity explores Gale",
+          "title2": "Strong, Smart and Curious",
+          "title3": "Coming in for a Landing",
+          "text1": "Crater and acquires rock, soil, and air samples for onboard analysis. The car-size rover is about as tall as a basketball player and uses a 7 foot-long arm to place tools close to rocks selected for study. Curiositys large size allows it to carry an advanced kit of 10 science instruments. It has tools including 17 cameras, a laser to vaporize and study small pinpoint spots of rocks at a distance, and a drill to collect powdered rock samples. It hunts for special rocks that formed in water and/or have signs of organics.",
+          "text2": "Curiosity carries the biggest, most advanced instruments for scientific studies ever sent to the Martian surface. The history of Martian climate and geology is written in the chemistry and structure of the rocks and soil. Curiosity reads this record by analyzing powdered samples drilled from rocks. It also measures the chemical fingerprints present in different rocks and soils to determine their composition and history, especially their past interactions with water.",
+          "text3": "Mars Science Laboratory arrived at Mars through technological innovations that tested a completely new landing method. The spacecraft descended on a parachute, then during the final seconds before landing, the landing system fired rockets to allow it to hover while a tether lowered Curiosity to the surface. The rover landed on its wheels, the tether was cut, and the landing system flew off to crash-land a safe distance away.",
+          "text4": "The Mars Science Laboratory mission represents a huge step in Mars exploration because it has: Demonstrated the ability to land a very large, heavy rover to the surface of Mars Demonstrated the ability to land more precisely in a 12.4-mile (20-kilometer) landing area Demonstrated long-range mobility on Mars for studying diverse environments and analyzing samples found in different settings.",
+          "facts": {
+            "missionName": "Mars Science Laboratory/Curiosity",
+            "mainJob": "Finding evidence of a past environment well suited to supporting microbial life.",
+            "LandingSite": "Gale Crater",
+            "missionDuration": "2012 - Present"
+          }
+        },
+        "science": {
+          "img": "https://images-assets.nasa.gov/image/PIA14165/PIA14165~orig.jpg",
+          "text1": "Landing at Gale Crater, Mars Science Laboratory is assessing whether Mars ever had an environment capable of supporting microbial life. Determining past habitability on Mars gives NASA and the scientific community a better understanding of whether life could have existed on the red planet and, if it could have existed, an idea of where to look for it in the future.",
+          "text2": "The Mars Science Laboratory mission and its Curiosity rover mark a transition between the themes of 'Follow the Water' and 'Seek Signs of Life'. In addition to landing in a place with past evidence of water, Curiosity is seeking evidence of organics, the chemical building blocks of life. Places with water and the chemistry needed for life potentially provide habitable conditions.",
+          "goals": {
+            "goal1": "Life",
+            "goal2": "Climate",
+            "goal3": "Geology",
+            "goal4": "Human Arrival",
+            "text1": "The first step in understanding the possibility of past or present life on Mars is to determine whether the red planet ever had environmental conditions able to support life. Now that NASA's two Mars Exploration Rovers, Spirit and Opportunity, have found compelling evidence that liquid water once persisted on the surface of Mars, scientists hope to determine if other things necessary for life were also present. With a single rover bigger than both the Viking landers sent to Mars in the 1970s, Mars Science Laboratory looks for chemical elements that are the building blocks of life. These building blocks include six elements necessary to all life on Earth: carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur. Life requires small amounts of other elements, such as iron, along with sources of energy. On Earth, this energy comes from sunlight or from electrons moving back and forth between elements and compounds in nature. Life also requires a stable enough environment to get a foothold without being eradicated by natural hazards such as volcanic explosions or excessive ultraviolet radiation. The Mars Science Laboratory is studying carbon and water cycles on the planet through its history. That is, it seeks to determine in what form and amount carbon and water is stored on the planet or in its atmosphere and how that may have changed through time.",
+            "text2": "Mars Science Laboratory is characterizing Mars' ancient climate and climate processes for the lower and upper atmosphere. In the past, a warmer Mars might have supported a thicker, wetter atmosphere. But now, with its thin, cold atmosphere, much of the water on Mars has left the surface and atmosphere. Most of it is probably trapped under the surface, either as ice or possibly in liquid form if any exists near a heat source on the planet, such as a volcanic 'hot spring'. An earlier thicker, wetter atmosphere may have provided better environmental conditions for supporting microbial life in Mars' early history. Mars Science Laboratory allows scientists to determine more precisely the composition of the Martian atmosphere, for instance, by measuring the stable isotopes of elements such as carbon. (Isotopes are atoms of the same element that have different masses because they have a different number of neutrons in the nucleus.) Most elements of biological interest have two or more stable isotopes. Organisms often selectively use particular isotopes based on their availability and mass. Environmental conditions also affect the availability of various isotopes. Mars Science Laboratory looks for biosignatures - signs of life - such as abrupt changes in isotopic abundance that might be associated with life, and investigates the composition of rocks, soils, and land forms that might be linked with changes in the planet's atmosphere over time.",
+            "text3": "A record of Mars' history is folded in the layers of the martian surface -- in essence, geology's version of tree rings. Mars Science Laboratory studies the rock and soil record in order to understand the geologic processes that created and modified the martian crust and surface through time. In particular, it looks for evidence of rocks that formed in the presence of water.",
+            "text4": "By demonstrating an ability to land large, heavy payloads on the surface, Mars Science Laboratory paves the way for sending equipment and the huge infrastructure needed by any human explorers of the future. Experience in precision landing techniques also provides the first early steps in developing an ability to send astronauts to a given location safely and reliably. A better understanding and characterization of radiation levels at the surface of Mars will help mission planners understand potential hazards faced by any future astronaut crews and design methods for protecting their health."
+          }
+        },
+        "technique": {
+          "img": "https://mars.nasa.gov/internal_resources/629",
+          "cameras": {
+            "cam1": {
+              "name": "Mast Camera (Mastcam)",
+              "text": "The Mast Camera, or Mastcam for short, takes color images and color video footage of the Martian terrain. The images can be stitched together to create panoramas of the landscape around the rover. Like the cameras on the Mars Exploration Rovers that landed on the red planet in 2004, the Mastcam design consists of two camera systems mounted on a mast extending upward from the Mars Science Laboratory rover deck (body). The Mastcam can be used to study the Martian landscape, rocks, and soils; to view weather phenomena; and to support the driving and sampling operations of the rover.",
+              "img": "https://mars.nasa.gov/internal_resources/630"
+            },
+            "cam2": {
+              "name": "Mars Hand Lens Imager (MAHLI)",
+              "text": "MAHLI provides earthbound scientists with close-up views of the minerals, textures, and structures in martian rocks and the surface layer of rocky debris and dust. The self-focusing, roughly 4-centimeter-wide (1.5-inch-wide) camera takes color images of features as small as 12.5 micrometers, smaller than the diameter of a human hair. MAHLI carries both white light sources, similar to the light from a flashlight, and ultraviolet light sources, similar to the light from a tanning lamp, making the imager functional both day and night. The ultraviolet light can be used to induce fluorescence to help detect carbonate and evaporite minerals, both of which indicate that water helped shape the landscape on Mars.",
+              "img": "https://mars.nasa.gov/internal_resources/659"
+            },
+            "cam3": {
+              "name": "Mars Descent Imager (MARDI)",
+              "text": ".Knowing the location of loose debris, boulders, cliffs, and other features of the terrain is vital for planning the path of exploration now that the Mars Science Laboratory rover has landed on the red planet. The Mars Descent Imager took color video during the rover's descent toward the surface, providing an astronaut's view of the local environment...",
+              "img": "https://mars.nasa.gov/system/content_pages/main_images/407_20100719_MARDI-MSL-camera.jpg"
+            },
+            "cam4": {
+              "name": "APXS",
+              "text": "The Alpha Particle X-Ray Spectrometer will measure the abundance of chemical elements in rocks and soils. Funded by the Canadian Space Agency, the APXS will be placed in contact with rock and soil samples on Mars and will expose the material to alpha particles and X-rays emitted during the radioactive decay of the element curium. X-rays are a type of electromagnetic radiation, like light and microwaves.",
+              "img": "https://mars.nasa.gov/internal_resources/664"
+            }
+          }
+        }
+      },
+      "opportunity": {
+        "id": 2,
+        "name": "Opportunity",
+        "iframe": "https://mars.nasa.gov/layout/embed/model/?s=3&rotate=true",
+        "img": "/opportunity.jpg",
+        "text": "Opportunity has worked on Mars longer than any other robot—nearly 15 years. The rover last communicated with Earth on June 10, 2018, as a planet-wide dust storm blanketed the solar-powered rover’s location on Mars. In 2015, Opportunity broke the record for extraterrestrial travel by driving more than the distance of a marathon, with a total of 28.06 miles (45.16 kilometers).",
+        "mission": {
+          "title1": "The adventure twins",
+          "title2": "Star performers",
+          "title3": "All the right moves",
+          "text1": "In January 2004, two robotic geologists named Spirit and Opportunity landed on opposite sides of the red planet. With far greater mobility than the 1997 Mars Pathfinder rover, these robotic explorers have trekked for miles across the Martian surface, conducting field geology and making atmospheric observations. Carrying identical, sophisticated sets of science instruments, both rovers have found evidence of ancient Martian environments where intermittently wet and habitable conditions existed.",
+          "text2": "Both rovers exceeded their planned 90-day mission lifetimes by many years. Spirit lasted 20 times longer than its original design until it concluded its mission in 2010. Opportunity has worked on Mars longer than any other robot—nearly 15 years. The rover last communicated with Earth on June 10, 2018, as a planet-wide dust storm blanketed the solar-powered rover’s location on Mars. In 2015, Opportunity broke the record for extraterrestrial travel by driving more than the distance of a marathon, with a total of 28.06 miles (45.16 kilometers).",
+          "text3": "Each rover was created to be the mechanical equivalent of a geologist walking from place to place. The mast-mounted cameras are 5 feet (1.5 meters) high and provide 360-degree two-eyed, humanlike views of the terrain. The robotic arm moves like a human arm with an elbow and wrist, and can place instruments directly up against rock and soil targets of interest. The mechanical 'hand' of the arm holds a microscopic camera that serves the same purpose as a geologist's handheld magnifying lens. The Rock Abrasion Tool is like a geologist's rock hammer that exposes the insides of rocks.",
+          "facts": {
+            "missionName": "Mars Exploration Rovers",
+            "mainJob": "Search for and characterize a wide range of rocks and soils for clues to past water activity on Mars. ",
+            "LandingSite": "Meridiani Planum",
+            "missionDuration": "2003 - 2019"
+          }
+        },
+        "science": {
+          "img": "https://mars.nasa.gov/imgs/general/layout/overview/MER_twins_white_cyc.png",
+          "text1": "The big science question for the Mars Exploration Rovers is how past water activity on Mars has influenced the red planet's environment over time. While there is no liquid water on the surface of Mars today, the record of past water activity on Mars can be found in the rocks, minerals, and geologic landforms, particularly in those that can only form in the presence of water. That's why the rovers are specially equipped with tools to study a diverse collection of rocks and soils that may hold clues to past water activity on Mars.",
+          "text2": "Since leaving their landing sites, the twin rovers have sent hundreds of thousands of spectacular, high-resolution, full-color images of Martian terrain as well as detailed microscopic images of rocks and soil surfaces to Earth. Four different spectrometers have amassed unparalleled information about the chemical and mineralogical makeup of Martian rocks and soil. Special rock abrasion tools, never before sent to another planet, have enabled scientists to peer beneath the dusty and weathered surfaces of rocks to examine their interiors.",
+          "goals": {
+            "goal1": "Life",
+            "goal2": "Climate",
+            "goal3": "Geology",
+            "goal4": "Human Arrival",
+            "text1": "Life, as we understand it, requires water, so the history of water on Mars is critical to finding out if the martian environment was ever conducive to life. Although the Mars Exploration Rovers do not have the ability to detect life directly, they will be offering very important information on the habitability of the environment in the planet's history. The rovers will focus on questions concerning water on Mars: its past, where it was located, and the chemical and geological interactions with the rocks and soil. Close-up studies of surface samples will reveal new details of Mars mineralogy that may help answer whether water was involved in rock and soil formation, and the nature of those processes. This knowledge, in turn, will point the way to areas on Mars that may have been favorable for life in the past.",
+            "text2": "Recorded in the structure and mineral content of Mars' rocks and soils are signs of the environmental conditions under which the materials were formed and altered. Detailed studies of rock samples with the rover instruments will reveal climate details of Mars´ past, which may have been warmer and wetter. In addition, one science instrument will periodically look up to gather temperature profiles of the atmospheric boundary layer - the layer of atmosphere from the surface up to 10 kilometers (6 miles) in altitude. This part of the atmosphere cannot be well observed by orbital instruments, and the data returned will provide important basic information for understanding the current climate on Mars",
+            "text3": "The rovers are equipped with some of the tools a geologist would carry into the field, as well as the scientific instruments a geologist would use in a lab to study collected samples. Detailed mineralogical study of rock samples will reveal their content and the conditions in which they formed. A tool to scrape away weathered surfaces of rocks will expose fresh surfaces for close-up study. Of particular interest to the rover science team are minerals containing the element iron, which interacts strongly with liquid water. Did the reddish Martian soil form billions of years ago when the planet may have been wetter and warmer, or is the rusty soil simply the result of ongoing interaction of an oxidizing atmosphere with the surface rocks? Other searches for geological evidence of water will be for clays, carbonates, salts and other minerals that formed in the presence of water.",
+            "text4": "The Mars Exploration Rovers will characterize the chemistry and mineralogy of the Martian soil and dust, and perhaps some of the potential hazards that they may pose to humans. Through its studies of surface mineralogy, the mission will help in the assessment of soil and rock as potential in-situ resources for future human missions. The rovers will also contribute to studies of how well the rovers can traverse given characteristics of the soil (for instance, how much resistance the soil provides, how far down the wheels sink etc.). This knowledge will help in planning for other future vehicles that might be needed on Mars."
+          }
+        },
+        "technique": {
+          "img": "https://mars.nasa.gov/imgs/mer/instrument-main.jpg",
+          "cameras": {
+            "cam1": {
+              "name": "Pancam",
+              "text": "The Panoramic Camera is known by its nickname, Pancam. Two cameras work in combination to take detailed, multi-wavelength, 3-D panoramic pictures of the Martian landscape surrounding the rover. The Pancam Mast Assembly (PMA) allows the cameras to rotate a full 360° to obtain a panoramic view of the martian landscape. The camera bar itself can swing up or down through 180° of elevation.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/pancam1_400.jpg"
+            },
+            "cam2": {
+              "name": "MI",
+              "text": "The Microscopic Imager on the Spirit and Opportunity Rovers of the Mars Exploration Rovers is also known as MI. The high-resolution camera gives magnifying glass-views of Martian rocks and soils. It scouts promising targets for detailed study and analysis by other instruments on the rover. Microscopic imaging is used to analyze the size and shape of grains in sedimentary rocks, which is important for identifying whether water may have existed in the planet's past.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/mi1_500.jpg"
+            },
+            "cam3": {
+              "name": "Mini-TES",
+              "text": "Mini-TES is an infrared spectrometer that can determine the mineralogy of rocks and soils from a distance by detecting their patterns of thermal radiation. All warm objects emit heat, but different objects emit heat differently. This variation in thermal radiation can help scientists identify the minerals on Mars. Mini-TES records the spectra of various rocks and soils.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/minites1_400.jpg"
+            },
+            "cam4": {
+              "name": "MB",
+              "text": "The Mössbauer Spectrometer on the Mars Exploration Rovers, Spirit and Opportunity, is known as MB. The MB determines the makeup and quantities of iron-bearing minerals in geological samples studied by the rover. MB can be placed right up to rock and soil samples for close-up study, and it also examines magnetic dust samples collected by the Magnetic Array on the rover's deck.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/mb-arm.jpg"
+            }
+          }
+        }
+      },
+      "perseverance": {
+        "id": 3,
+        "name": "Perseverance",
+        "iframe": "https://mars.nasa.gov/gltf_embed/25042",
+        "img": "/perseverance.jpg",
+        "text": "The Mars 2020 Perseverance Rover will search for signs of ancient microbial life, which will advance NASA quest to explore the past habitability of Mars. The rover has a drill to collect core samples of Martian rock and soil, then store them in sealed tubes for pickup by a future mission that would ferry them back to Earth for detailed analysis. Perseverance will also test technologies to help pave the way for future human exploration of Mars.",
+        "mission": {
+          "title1": "Searching for Ancient Life, Gathering Rocks and Soil",
+          "title2": "Technologies for Entry, Descent, and Landing",
+          "title3": "Technologies for Surface Operations",
+          "text1": "There are several ways that the mission helps pave the way for future human expeditions to Mars and demonstrates technologies that may be used in those endeavors. These include testing a method for producing oxygen from the Martian atmosphere, identifying other resources (such as subsurface water), improving landing techniques, and characterizing weather, dust, and other potential environmental conditions that could affect future astronauts living and working on Mars.",
+          "text2": "The mission uses technological innovations already demonstrated successfully, especially for entry, descent, and landing (EDL). Like NASA's Curiosity rover (, the Mars 2020 spacecraft uses a guided entry, descent, and landing system. The landing system on Mars 2020 mission includes a parachute, descent vehicle, and an approach called a 'skycrane maneuver' for lowering the rover on a tether to the surface during the final seconds before landing.This type of landing system provides the ability to land a very large, heavy rover on the surface of Mars in a more precise landing area than was possible before Curiosity's landing. Mars 2020 takes things one step further. It adds new entry, descent, and landing (EDL) technologies, such as Terrain-Relative Navigation (TRN). This sophisticated navigation system allows the rover to detect and avoid hazardous terrain by diverting around it during its descent through the Martian atmosphere. A microphone allows engineers to analyze entry, descent, and landing. It might also capture sounds of the rover at work, which would provide engineers with clues about the rover's health and operations, and would be a treat to hear.",
+          "text3": "The Perseverance rover design minimizes costs and risks because it is largely based on the engineering design for the previous Curiosity rover. The Perseverance long-range mobility system allows it to travel on the surface of Mars over 3 to 12 miles (5 to 20 kilometers). Improvements on Perseverance include a new, more capable wheel design. And for the first time, the rover carries a drill for coring samples from Martian rocks and soil. It gathers and stores the cores in tubes on the Martian surface, using 'depot caching'. Caching demonstrates a new rover capability of gathering, storing, and preserving samples. This could potentially pave the way for future missions to retrieve the samples and ferry them to Earth for intensive laboratory analysis. Perseverance tests a technology for extracting oxygen from the Martian atmosphere, which is 96% carbon dioxide. This demonstration helps mission planners test ways of using Mars' natural resources to support human explorers and improve designs for life support, transportation, and other important systems for living and working on Mars. The rover also monitors weather and dust in the Martian atmosphere. Such studies are important for understanding daily and seasonal changes on Mars, and will help future human explorers better predict Martian weather.",
+          "facts": {
+            "missionName": "Mars 2020 Mission",
+            "mainJob": "Seek signs of ancient life and collect samples of rock and regolith (broken rock and soil) for possible return to Earth.",
+            "LandingSite": "Jezero Crater",
+            "missionDuration": "At Least One Mars Year (about 687 Earth days)"
+          }
+        },
+        "science": {
+          "img": "https://mars.nasa.gov/imgs/mars2020/science-overview-rover.jpg",
+          "text1": "Mars exploration at NASA 'follows the water.' Earlier missions had found that liquid water existed on Mars in the distant past. Perseverance’s older cousin, the Curiosity rover, explored the “habitability” of Mars. It found nutrients and energy sources that microbes could have used, and established that Mars indeed had regions that could have been friendly to life in the ancient past. Did life take hold on the Red Planet? Perseverance takes the next step by looking for the signs of past life itself.",
+          "text2": "Perseverance is set to explore Jezero crater. From orbit, this crater shows all the promising signs of a place that was likely friendly to life in the distant past. The rover’s goal is to study the site in detail for its past conditions and seek the very signs of past life. Its mission is to identify and collect the most compelling rock core and soil samples, which a future mission could retrieve and bring back to Earth for more detailed study. Perseverance will also test technologies needed for the future human and robotic exploration of Mars.",
+          "goals": {
+            "goal1": "Geology",
+            "goal2": "Astrobiology",
+            "goal3": "Sample Caching",
+            "goal4": "Human Arrival",
+            "text1": "Study the rocks and landscape at the landing site to reveal the region’s history.Characterize the processes that formed and modified the geologic record within a field exploration area on Mars selected for evidence of an astrobiologically-relevant ancient environment and geologic diversity.One of the goals of the Mars 2020 mission is to explore an area that once had the potential to host and preserve ancient life. Perseverance will explore a region that could answer key questions about the potential for ancient life on Mars: Was it warm? Was it wet? Was it hospitable to life?",
+            "text2": "Determine whether an area of interest was suitable for life, and look for signs of ancient life itself.Perform the following astrobiologically-relevant investigations on the geologic materials at Jezero Crater: Determine the habitability of an ancient environment. For ancient environments interpreted to have been habitable search for materials with high biosignature preservation potential.Search for potential evidence of past life using the observations regarding habitability and preservation as a guide. Once Perseverance has a chance to study the landing site and its history, the team should be able to identify whether any locations in the crater were habitable (were liquid water and the chemical building blocks of life present there in the past).",
+            "text3": "Cache samples for possible future return to Earth. Obtain the most promising samples that represent the geologic diversity of the landing site, and document the context of those samples thoroughly. Ensure compliance with future needs in the areas of planetary protection and engineering so that the cached samples could be returned in the future if NASA chooses to do so.Perseverance has 38 empty tubes in which it can store samples of Mars rock and soil. By the end of its mission, it will collect approximately 30 samples..",
+            "text4": "Test technologies that would help sustain human presence on Mars someday. Contribute to the preparation for human exploration of Mars by making significant progress towards filling at least one major Strategic Knowledge Gaps. The highest priority measurements that are synergistic with Mars 2020 science objectives are: Demonstration of In-Situ Resource Utilization technologies to enable propellant and consumable oxygen production from the Martian atmosphere for future exploration missions. Characterization of atmospheric dust size and morphology to understand its effects on the operation of surface systems and human health. Surface weather measurements to validate global atmospheric models. A set of engineering sensors embedded in the Mars 2020 heat shield and backshell to gather data on the aerothermal conditions, thermal protection system, and aerodynamic performance characteristics of the Mars 2020 entry vehicle during its entry and descent to the Mars surface. Perseverance will test technologies that would help sustain human presence on Mars someday."
+          }
+        },
+        "technique": {
+          "img": "https://mars.nasa.gov/system/resources/detail_files/25045_Perseverance_Mars_Rover_Instrument_Labels-web.jpg",
+          "cameras": {
+            "cam1": {
+              "name": "Mastcam-Z",
+              "text": "The Mastcam-Z is the name of the mast-mounted camera system that is equipped with a zoom function on the Perseverance rover. Mastcam-Z has cameras that can zoom in, focus, and take 3D pictures and video at high speed to allow detailed examination of distant objects.",
+              "img": "https://mars.nasa.gov/layout/mars2020/images/mastcam-web.jpg"
+            },
+            "cam2": {
+              "name": "MEDA",
+              "text": "The Mars Environmental Dynamics Analyzer is known as MEDA. It makes weather measurements including wind speed and direction, temperature and humidity, and also measures the amount and size of dust particles in the Martian atmosphere.",
+              "img": "https://mars.nasa.gov/layout/mars2020/images/meda-web.jpg"
+            },
+            "cam3": {
+              "name": "MOXIE",
+              "text": "The Mars Oxygen In-Situ Resource Utilization Experiment is better known as MOXIE. NASA is preparing for human exploration of Mars, and MOXIE will demonstrate a way that future explorers might produce oxygen from the Martian atmosphere for propellant and for breathing.",
+              "img": "https://mars.nasa.gov/layout/mars2020/images/moxie-web.jpg"
+            },
+            "cam4": {
+              "name": "SHERLOC",
+              "text": "The Scanning Habitable Environments with Raman & Luminescence for Organics & Chemicals has a nickname: SHERLOC. Mounted on the rover's robotic arm, SHERLOC uses cameras, spectrometers, and a laser to search for organics and minerals that have been altered by watery environments and may be signs of past microbial life.",
+              "img": "https://mars.nasa.gov/layout/mars2020/images/sherloc-web.jpg"
+            }
+          }
+        }
+      },
+      "spirit": {
+        "id": 2,
+        "name": "Spirit",
+        "iframe": "https://mars.nasa.gov/layout/embed/model/?s=3&rotate=true",
+        "img": "/opportunity.jpg",
+        "text": "Spirit and Opportunity landed on Mars January 3 and January 24, 2004 PST (Jan. 4 and Jan. 25 UTC). Both rovers lived well beyond their planned 90-day missions.Spirit lasted 20 times longer than its original design until it concluded its mission in 2010.",
+        "mission": {
+          "title1": "The adventure twins",
+          "title2": "Star performers",
+          "title3": "All the right moves",
+          "text1": "In January 2004, two robotic geologists named Spirit and Opportunity landed on opposite sides of the red planet. With far greater mobility than the 1997 Mars Pathfinder rover, these robotic explorers have trekked for miles across the Martian surface, conducting field geology and making atmospheric observations. Carrying identical, sophisticated sets of science instruments, both rovers have found evidence of ancient Martian environments where intermittently wet and habitable conditions existed.",
+          "text2": "Both rovers exceeded their planned 90-day mission lifetimes by many years. Spirit lasted 20 times longer than its original design until it concluded its mission in 2010. Opportunity has worked on Mars longer than any other robot—nearly 15 years. The rover last communicated with Earth on June 10, 2018, as a planet-wide dust storm blanketed the solar-powered rover’s location on Mars. In 2015, Opportunity broke the record for extraterrestrial travel by driving more than the distance of a marathon, with a total of 28.06 miles (45.16 kilometers).",
+          "text3": "Each rover was created to be the mechanical equivalent of a geologist walking from place to place. The mast-mounted cameras are 5 feet (1.5 meters) high and provide 360-degree two-eyed, humanlike views of the terrain. The robotic arm moves like a human arm with an elbow and wrist, and can place instruments directly up against rock and soil targets of interest. The mechanical 'hand' of the arm holds a microscopic camera that serves the same purpose as a geologist's handheld magnifying lens. The Rock Abrasion Tool is like a geologist's rock hammer that exposes the insides of rocks.",
+          "facts": {
+            "missionName": "Mars Exploration Rovers",
+            "mainJob": "Search for and characterize a wide range of rocks and soils for clues to past water activity on Mars. ",
+            "LandingSite": "Gusev Crater",
+            "missionDuration": "2003 - 2010"
+          }
+        },
+        "science": {
+          "img": "https://mars.nasa.gov/imgs/general/layout/overview/MER_twins_white_cyc.png",
+          "text1": "The big science question for the Mars Exploration Rovers is how past water activity on Mars has influenced the red planet's environment over time. While there is no liquid water on the surface of Mars today, the record of past water activity on Mars can be found in the rocks, minerals, and geologic landforms, particularly in those that can only form in the presence of water. That's why the rovers are specially equipped with tools to study a diverse collection of rocks and soils that may hold clues to past water activity on Mars.",
+          "text2": "Since leaving their landing sites, the twin rovers have sent hundreds of thousands of spectacular, high-resolution, full-color images of Martian terrain as well as detailed microscopic images of rocks and soil surfaces to Earth. Four different spectrometers have amassed unparalleled information about the chemical and mineralogical makeup of Martian rocks and soil. Special rock abrasion tools, never before sent to another planet, have enabled scientists to peer beneath the dusty and weathered surfaces of rocks to examine their interiors.",
+          "goals": {
+            "goal1": "Life",
+            "goal2": "Climate",
+            "goal3": "Geology",
+            "goal4": "Human Arrival",
+            "text1": "Life, as we understand it, requires water, so the history of water on Mars is critical to finding out if the martian environment was ever conducive to life. Although the Mars Exploration Rovers do not have the ability to detect life directly, they will be offering very important information on the habitability of the environment in the planet's history. The rovers will focus on questions concerning water on Mars: its past, where it was located, and the chemical and geological interactions with the rocks and soil. Close-up studies of surface samples will reveal new details of Mars mineralogy that may help answer whether water was involved in rock and soil formation, and the nature of those processes. This knowledge, in turn, will point the way to areas on Mars that may have been favorable for life in the past.",
+            "text2": "Recorded in the structure and mineral content of Mars' rocks and soils are signs of the environmental conditions under which the materials were formed and altered. Detailed studies of rock samples with the rover instruments will reveal climate details of Mars´ past, which may have been warmer and wetter. In addition, one science instrument will periodically look up to gather temperature profiles of the atmospheric boundary layer - the layer of atmosphere from the surface up to 10 kilometers (6 miles) in altitude. This part of the atmosphere cannot be well observed by orbital instruments, and the data returned will provide important basic information for understanding the current climate on Mars",
+            "text3": "The rovers are equipped with some of the tools a geologist would carry into the field, as well as the scientific instruments a geologist would use in a lab to study collected samples. Detailed mineralogical study of rock samples will reveal their content and the conditions in which they formed. A tool to scrape away weathered surfaces of rocks will expose fresh surfaces for close-up study. Of particular interest to the rover science team are minerals containing the element iron, which interacts strongly with liquid water. Did the reddish Martian soil form billions of years ago when the planet may have been wetter and warmer, or is the rusty soil simply the result of ongoing interaction of an oxidizing atmosphere with the surface rocks? Other searches for geological evidence of water will be for clays, carbonates, salts and other minerals that formed in the presence of water.",
+            "text4": "The Mars Exploration Rovers will characterize the chemistry and mineralogy of the Martian soil and dust, and perhaps some of the potential hazards that they may pose to humans. Through its studies of surface mineralogy, the mission will help in the assessment of soil and rock as potential in-situ resources for future human missions. The rovers will also contribute to studies of how well the rovers can traverse given characteristics of the soil (for instance, how much resistance the soil provides, how far down the wheels sink etc.). This knowledge will help in planning for other future vehicles that might be needed on Mars."
+          }
+        },
+        "technique": {
+          "img": "https://mars.nasa.gov/imgs/mer/instrument-main.jpg",
+          "cameras": {
+            "cam1": {
+              "name": "Pancam",
+              "text": "The Panoramic Camera is known by its nickname, Pancam. Two cameras work in combination to take detailed, multi-wavelength, 3-D panoramic pictures of the Martian landscape surrounding the rover. The Pancam Mast Assembly (PMA) allows the cameras to rotate a full 360° to obtain a panoramic view of the martian landscape. The camera bar itself can swing up or down through 180° of elevation.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/pancam1_400.jpg"
+            },
+            "cam2": {
+              "name": "MI",
+              "text": "The Microscopic Imager on the Spirit and Opportunity Rovers of the Mars Exploration Rovers is also known as MI. The high-resolution camera gives magnifying glass-views of Martian rocks and soils. It scouts promising targets for detailed study and analysis by other instruments on the rover. Microscopic imaging is used to analyze the size and shape of grains in sedimentary rocks, which is important for identifying whether water may have existed in the planet's past.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/mi1_500.jpg"
+            },
+            "cam3": {
+              "name": "Mini-TES",
+              "text": "Mini-TES is an infrared spectrometer that can determine the mineralogy of rocks and soils from a distance by detecting their patterns of thermal radiation. All warm objects emit heat, but different objects emit heat differently. This variation in thermal radiation can help scientists identify the minerals on Mars. Mini-TES records the spectra of various rocks and soils.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/minites1_400.jpg"
+            },
+            "cam4": {
+              "name": "MB",
+              "text": "The Mössbauer Spectrometer on the Mars Exploration Rovers, Spirit and Opportunity, is known as MB. The MB determines the makeup and quantities of iron-bearing minerals in geological samples studied by the rover. MB can be placed right up to rock and soil samples for close-up study, and it also examines magnetic dust samples collected by the Magnetic Array on the rover's deck.",
+              "img": "https://mars.nasa.gov/imgs/mer/instruments/mb-arm.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,13 @@
-import React from 'react';
-import Example from './components/Speech';
+
+import FinalPage from './components/FinalPage';
+import './App.css';
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <div className="App">
+      <FinalPage />
+    </div>
+  );
 }
 
 export default App;
