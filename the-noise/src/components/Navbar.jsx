@@ -17,7 +17,7 @@ function Navbar() {
                             <input type="checkbox" id="show-features" />
                             <label for="show-features">Candidats</label>
                             <ul>
-                                <li><a href="#">Candidats 1</a></li>
+                                <li><a href="#">Curiosity</a></li>
                                 <li><a href="#">Opportunity</a></li>
                                 <li><a href="#">Perseverance</a></li>
                                 <li><a href="#">Spirit</a></li>

@@ -2,9 +2,7 @@ import './HomePage.css';
 
 function HomePage () {
     return (
-        <div>
-            
-        </div>
+        <article> Hello world</article>
     )
 }
 
