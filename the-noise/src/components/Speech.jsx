@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Example({ song }) {
-  const utterance = new SpeechSynthesisUtterance({ song });
-  utterance.lang = 'fr-FR';
-  utterance.rate = 10;
-  utterance.pitch = 1.5;
+function Speech(props) {
+  const utterance = new SpeechSynthesisUtterance(props.song);
+  utterance.lang = 'en-EN';
+  utterance.rate = props.rate;
+  utterance.pitch = props.pitch;
 
   return (
     <div>
@@ -14,4 +14,4 @@ function Example({ song }) {
   );
 }
 
-export default Example;
+export default Speech;
