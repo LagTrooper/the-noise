@@ -1,3 +1,5 @@
+import Navbar from './components/Navbar';
+import HomePage from './components/HomePage'; 
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +16,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      <HomePage />
       <Router>
         <Switch>
         <Route path="/rover-profile/Opportunity" component={PageOpportunity} />
