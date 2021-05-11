@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Card = ({ name, img }) => {
   const [infosRover, setInfosRover] = useState([]);
@@ -75,9 +76,11 @@ const Card = ({ name, img }) => {
     <div style={CardContainer}>
       <h1 style={CardTitle}>{name}</h1>
       <div style={ImgCardHeader} />
-      <button type="button" style={CardButton} >
+      <Link to={`/rover-profile/${name}`}>
+      <button type="button" style={CardButton}>
         Learn more...
       </button>
+      </Link>
     </div>
   );
 };
