@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+html {
+  background-image: url('https://media1.tenor.com/images/8e46150f790fbefe438d9c2767c32ad1/tenor.gif?itemid=15673753');
+  height: max-content;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

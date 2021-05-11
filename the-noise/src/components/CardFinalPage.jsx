@@ -18,13 +18,14 @@ const Card = ({ name, img }) => {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
-    padding: 0,
+    padding: '10px',
     width: '300px',
     height: '500px',
-    backgroundColor: '#fff',
+    backgroundColor:'rgba(255, 255, 255, 0.596)',
     border: '1.5px solid black',
     borderRadius: '0.5rem',
-    boxShadow: '12px 12px 2px 1px rgba(46, 49, 49, 1)',
+    marginBottom: '20px',
+    marginTop: '20px'
   };
 
   const CardTitle = {
@@ -39,6 +40,7 @@ const Card = ({ name, img }) => {
   const ImgCardHeader = {
     width: '100%',
     height: '75%',
+    borderRadius:'5%',
     background: `url(${img})center`,
     backgroundSize: 'cover',
     margin: '0 0 ',
@@ -50,18 +52,13 @@ const Card = ({ name, img }) => {
   };
 
   const CardButton = {
-    height: 'auto',
-    border: 'none',
-    fontSize: '1rem',
-    alignSelf: 'flex-end',
-    justifyself: 'flex-end',
-    margin: '0.8rem',
-    padding: '0.5rem',
-    fontFamily: 'Rajdhani',
-    fontWeight: 400,
-    backgroundColor: '#fff',
-    color: '#2e2c2c',
-    cursor: 'pointer',
+   height: '2em',
+   borderRadius: '5px',
+   marginLeft: '100px',
+   marginTop: '20px',
+   border: 'none',
+   fontSize: '0.9rem',
+   fontFamily: 'Rajdhani'
   };
 //   const CardStatus = {
 //     fontSize: '0.9rem',
