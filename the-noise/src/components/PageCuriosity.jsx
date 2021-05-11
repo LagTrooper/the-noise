@@ -1,7 +1,11 @@
 import React from 'react'
 import styled from "styled-components";
 
-
+const ViewPage = styled.div`
+display: flex;
+justify-content: center;
+align-item: center;
+`
 
 const ContainerCard = styled.div`
 display: flex;
@@ -10,7 +14,8 @@ margin: 2em;
 width: 1000px;
 border: 1px solid #8A8A8A;
 border-radius: 10px;
-background-color: #F7F7F7; 
+background-color:rgba(255, 255, 255, 0.596);
+margin-top: 5em;
 `
 
 const ContainerText = styled.div`
@@ -34,7 +39,7 @@ margin-left: -2em;
  `
 function RoverPage() {
   return (
-    <div>
+    <ViewPage>
     <ContainerCard>
       <Frame 
       title="curiosity"
@@ -47,7 +52,7 @@ function RoverPage() {
       <p>Curiosity biggest dream was always to be a superstar. Of course today she's quite famous thanks to her mars mission but she always wanted to be a PopStar. Now that she's given the chance to become one she will let nobody stand in front of her dream. #TeamCuriosity</p>
        </ContainerText>
     </ContainerCard>
-    </div>
+    </ViewPage>
   )
 }
 
