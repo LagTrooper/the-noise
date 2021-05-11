@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -5,22 +6,21 @@ const Footer = () => {
     <div class="footer-basic">
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="#">Home</a>
+        <Link to={`/`}>Home</Link>        </li>
+        <li class="list-inline-item">
+        <Link to={`/thefinal`}>The Final</Link>
         </li>
         <li class="list-inline-item">
-          <a href="#">The Final</a>
+        <Link to={`/rover-profile/Curiosity`}>Curiosity</Link>
         </li>
         <li class="list-inline-item">
-          <a href="#">Curiosity</a>
+            <Link to={`/rover-profile/Opportunity`}>Opportunity</Link>
         </li>
         <li class="list-inline-item">
-          <a href="#">Opportunity</a>
+        <Link to={`/rover-profile/Perseverance`}>Perseverance</Link>
         </li>
         <li class="list-inline-item">
-          <a href="#">Perseverance</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Spirit</a>
+        <Link to={`/rover-profile/Spirit`}>Spirit</Link>
         </li>
       </ul>
       <p class="copyright">The Noise WildCodeSchool © 2021</p>
