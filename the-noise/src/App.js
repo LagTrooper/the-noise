@@ -12,6 +12,7 @@ import PagePerseverance from './components/PagePerseverance'
 import PageSpirit from './components/PageSpirit'
 import PageCuriosity from './components/PageCuriosity'
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,12 +21,14 @@ function App() {
       <HomePage />
       <Router>
         <Switch>
+        <Route exact path="/" component={HomePage} />
         <Route path="/rover-profile/Opportunity" component={PageOpportunity} />
         <Route path="/rover-profile/Curiosity" component={PageCuriosity} />
         <Route path="/rover-profile/Spirit" component={PageSpirit} />
         <Route path="/rover-profile/Perseverance" component={PagePerseverance} />
-      <FinalPage />
+        <Route path="/thefinal" component={FinalPage} />
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

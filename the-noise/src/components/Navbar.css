@@ -1,3 +1,4 @@
+
 * {
   margin-top: 7px;
   box-sizing: border-box;
@@ -147,6 +148,7 @@ nav .content .links {
   .wrapper nav {
     max-width: 100%;
     padding: 0 20px;
+
   }
   nav .content .links {
     margin-left: 30px;
@@ -198,6 +200,10 @@ nav .content .links {
     cursor: pointer;
   }
   .content .links li a.desktop-link {
+
+
+  .wrapper input[type="checkbox"]{
+
     display: none;
   }
 
