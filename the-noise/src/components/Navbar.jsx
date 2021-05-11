@@ -1,5 +1,6 @@
 import './Navbar.css';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -14,29 +15,29 @@ function Navbar() {
           <img classname='logo' src={logo} alt='' />
           <ul class='links'>
             <li>
-              <a href='#'>Home</a>
+              <Link to={`/`}>Home</Link>
             </li>
             <li>
-              <a href='#'>Final</a>
+              <Link to={`/thefinal`}>Final</Link>
             </li>
             <li>
-              <a href='#' class='desktop-link'>
+              <Link to={``} class='desktop-link'>
                 Candidats
-              </a>
+              </Link>
               <input type='checkbox' id='show-features' />
               <label for='show-features'>Candidats</label>
               <ul>
                 <li>
-                  <a href='#'>Candidats 1</a>
+                  <Link to={`/rover-profile/Curiosity`}>Curiosity</Link>
                 </li>
                 <li>
-                  <a href='#'>Opportunity</a>
+                  <Link to={`/rover-profile/Opportunity`}>Opportunity</Link>
                 </li>
                 <li>
-                  <a href='#'>Perseverance</a>
+                  <Link to={`/rover-profile/Perseverance`}>Perseverance</Link>
                 </li>
                 <li>
-                  <a href='#'>Spirit</a>
+                  <Link to={`/rover-profile/Spirit`}>Spirit</Link>
                 </li>
               </ul>
             </li>

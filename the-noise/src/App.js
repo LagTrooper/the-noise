@@ -17,9 +17,8 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
       <Router>
+      <Navbar />
         <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/rover-profile/Opportunity" component={PageOpportunity} />
