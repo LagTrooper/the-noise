@@ -18,6 +18,7 @@
   margin-bottom: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-basic li {
@@ -32,10 +33,6 @@
 
 .footer-basic ul a:hover {
   opacity: 1;
-}
-
-.footer-basic .social {
-  text-align: center;
 }
 
 .footer-basic .copyright {
