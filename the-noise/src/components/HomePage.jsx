@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div>
       <div className='text'>
-        <h1 className='title-img'>The Noise: The final! </h1>
+        <h1 className='title-img'>The Noise: The final four! </h1>
         <img className='img-homepage'
           src='https://b2cproductionsite-be80wkthrgjjkmzuip0.netdna-ssl.com/sites/b2c/files/styles/orange_blog_in_picture/public/generated/blog/tvvv-studio-convertimage.jpg?itok=R7zYGq-r'
           alt='chairs'
