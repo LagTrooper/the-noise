@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
-import "./Footer.css";
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
   return (
+
     <footer class="footer-basic">
       <ul class="list-inline">
         <li class="list-inline-item">
@@ -10,21 +11,25 @@ const Footer = () => {
         <li class="list-inline-item">
         <Link to={`/thefinal`}>The Final</Link>
         </li>
-        <li class="list-inline-item">
-        <Link to={`/rover-profile/Curiosity`}>Curiosity</Link>
+        <li class='list-inline-item'>
+          <Link to={`/thefinal`}>The Final</Link>
         </li>
-        <li class="list-inline-item">
-            <Link to={`/rover-profile/Opportunity`}>Opportunity</Link>
+        <li class='list-inline-item'>
+          <Link to={`/rover-profile/Curiosity`}>Curiosity</Link>
         </li>
-        <li class="list-inline-item">
-        <Link to={`/rover-profile/Perseverance`}>Perseverance</Link>
+        <li class='list-inline-item'>
+          <Link to={`/rover-profile/Opportunity`}>Opportunity</Link>
         </li>
-        <li class="list-inline-item">
-        <Link to={`/rover-profile/Spirit`}>Spirit</Link>
+        <li class='list-inline-item'>
+          <Link to={`/rover-profile/Perseverance`}>Perseverance</Link>
+        </li>
+        <li class='list-inline-item'>
+          <Link to={`/rover-profile/Spirit`}>Spirit</Link>
         </li>
       </ul>
       <p class="copyright">The Noise WildCodeSchool © 2021</p>
     </footer>
+
   );
 };
 
