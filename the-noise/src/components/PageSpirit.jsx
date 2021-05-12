@@ -70,7 +70,7 @@ function SpiritPage() {
       </Frame>
       <ContainerText>
       <RoverName>Spirit</RoverName>
-      <p>After three oil leaks, a puncture and the broken lens Spirit decides to make his dream come true: to become a robot noise star !! #TeamSpirit</p>
+      <p>After three oil leaks, a puncture and a broken lens, Spirit decides to make his dream come true: to become a robot noise star !! #TeamSpirit</p>
        </ContainerText>
     </ContainerCard>
     </ViewPage>
