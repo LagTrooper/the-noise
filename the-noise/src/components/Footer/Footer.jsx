@@ -7,9 +7,7 @@ const Footer = () => {
     <footer class="footer-basic">
       <ul class="list-inline">
         <li class="list-inline-item">
-        <Link to={`/`}>Home</Link>        </li>
-        <li class="list-inline-item">
-        <Link to={`/thefinal`}>The Final</Link>
+        <Link to={`/`}>Home</Link>        
         </li>
         <li class='list-inline-item'>
           <Link to={`/thefinal`}>The Final</Link>
