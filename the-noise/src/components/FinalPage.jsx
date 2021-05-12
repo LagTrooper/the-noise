@@ -1,6 +1,7 @@
 import CardFinalPage from './CardFinalPage';
 import data from '../dto.json';
 import Speech from './Speech';
+import {useState} from 'react';
 import styled from 'styled-components'
 
 const ContainerPage = styled.div`
@@ -18,6 +19,12 @@ const { perseverance } = data.rovers[0];
 const { spirit } = data.rovers[0];
 
 const FinalPage = () => {
+
+  const [counter1, setCounter1] = useState(1470);
+  const [counter2, setCounter2] = useState(1647);
+  const [counter3, setCounter3]= useState(1500);
+  const [counter4, setCounter4] = useState(2314);
+
   return (
     <ContainerPage>
       <MusicCard>
@@ -27,6 +34,8 @@ const FinalPage = () => {
         pitch='0.2'
         rate='0.7'
       />
+      <p>{counter1} votes </p>
+      <button onClick={() => setCounter1(counter1 + 1)}>Increment</button>
       </MusicCard>
       <MusicCard>
       <CardFinalPage {...opportunity} />
@@ -36,6 +45,8 @@ const FinalPage = () => {
         pitch='10'
         rate='0.7'
       />
+      <p>{counter2} votes </p>
+      <button onClick={() => setCounter2(counter2 + 1)}>Increment</button>
       </MusicCard>
       <MusicCard>
       <CardFinalPage {...perseverance} />
@@ -44,6 +55,8 @@ const FinalPage = () => {
         pitch='0.5'
         rate='0.7'
       />
+       <p>{counter3} votes </p>
+      <button onClick={() => setCounter3(counter3 + 1)}>Increment</button>
      </MusicCard>
      <MusicCard>
       <CardFinalPage {...spirit} />
@@ -53,6 +66,8 @@ const FinalPage = () => {
         pitch='15'
         rate='0.7'
       />
+       <p>{counter4} votes </p>
+      <button onClick={() => setCounter4(counter4 + 1)}>Increment</button>
       </MusicCard>
     </ContainerPage>
   );
