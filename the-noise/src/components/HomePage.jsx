@@ -10,7 +10,7 @@ function HomePage() {
           src='https://b2cproductionsite-be80wkthrgjjkmzuip0.netdna-ssl.com/sites/b2c/files/styles/orange_blog_in_picture/public/generated/blog/tvvv-studio-convertimage.jpg?itok=R7zYGq-r'
           alt='chairs'
         />
-        <p className='final-text'>Who's gonna be the next Noise Superstar ? </p>
+        <p className='final-text'>Who's gonna be the next Noise Superstar ? <br/> Stay tuned Saturday May 15th at 8PM for the grand reveal !</p>
       </div>
       <LinkButton
         to='/thefinal'
