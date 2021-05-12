@@ -11,6 +11,14 @@ justify-content: space-evenly;
 const MusicCard = styled.div`
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
+`
+
+const TextVote = styled.p`
+color: white;
+font-size: 1.3em;
+
 `
 
 const { opportunity } = data.rovers[0];
@@ -34,8 +42,8 @@ const FinalPage = () => {
         pitch='0.2'
         rate='0.7'
       />
-      <p>{counter1} votes </p>
-      <button onClick={() => setCounter1(counter1 + 1)}>Increment</button>
+      <TextVote>{counter1} votes </TextVote>
+      <button className="final-button" onClick={() => setCounter1(counter1 + 1)}>Vote</button>
       </MusicCard>
       <MusicCard>
       <CardFinalPage {...opportunity} />
@@ -45,8 +53,8 @@ const FinalPage = () => {
         pitch='10'
         rate='0.7'
       />
-      <p>{counter2} votes </p>
-      <button onClick={() => setCounter2(counter2 + 1)}>Increment</button>
+      <TextVote>{counter2} votes </TextVote>
+      <button className="final-button"onClick={() => setCounter2(counter2 + 1)}>Vote</button>
       </MusicCard>
       <MusicCard>
       <CardFinalPage {...perseverance} />
@@ -55,8 +63,8 @@ const FinalPage = () => {
         pitch='0.5'
         rate='0.7'
       />
-       <p>{counter3} votes </p>
-      <button onClick={() => setCounter3(counter3 + 1)}>Increment</button>
+       <TextVote>{counter3} votes </TextVote>
+      <button className="final-button" onClick={() => setCounter3(counter3 + 1)}>Vote</button>
      </MusicCard>
      <MusicCard>
       <CardFinalPage {...spirit} />
@@ -66,8 +74,8 @@ const FinalPage = () => {
         pitch='15'
         rate='0.7'
       />
-       <p>{counter4} votes </p>
-      <button onClick={() => setCounter4(counter4 + 1)}>Increment</button>
+       <TextVote>{counter4} votes </TextVote>
+      <button className="final-button" onClick={() => setCounter4(counter4 + 1)}>Vote</button>
       </MusicCard>
     </ContainerPage>
   );

@@ -29,12 +29,12 @@ const Card = ({ name, img }) => {
   };
 
   const CardTitle = {
-    fontSize: "1.5rem",
-    fontFamily: "Rajdhani",
+    fontSize: "1.6rem",
     fontWeight: "500",
     color: "#2e2c2c",
     margin: "0.5rem auto",
     padding: "0 0.5rem",
+    letterSpacing: "1px"
   };
 
   const ImgCardHeader = {
