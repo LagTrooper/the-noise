@@ -7,6 +7,7 @@ import styled from 'styled-components'
 const ContainerPage = styled.div`
 display: flex;
 justify-content: space-evenly;
+flex-wrap: wrap;
 `
 const MusicCard = styled.div`
 display: flex;
