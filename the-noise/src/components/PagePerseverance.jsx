@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from "styled-components";
 
-
 const ViewPage = styled.div`
 display: flex;
 justify-content: center;
 align-item: center;
+
 `
 
 const ContainerCard = styled.div`
+@media (min-width:768px) {
 display: flex;
 justify-content: space-evenly;
 margin: 2em;
@@ -17,6 +18,16 @@ border: 1px solid #8A8A8A;
 border-radius: 10px;
 background-color:rgba(255, 255, 255, 0.596);
 margin-top: 5em;
+}
+@media (max-width:768px) {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid #8A8A8A;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.596);
+  margin-top: 5em;
+}
 `
 
 const ContainerText = styled.div`
@@ -25,11 +36,20 @@ flex-direction: column;
 justify-content: space-evenly;
 width: 400px;
 font-size: 1.3em;
+@media (max-width: 768px){
+  margin-left: 50px;
+}
  `
 
 const Frame = styled.iframe`
+@media (min-width: 768px){
 margin: 1em;
-margin-left: -2em;
+margin-left: -2em;}
+
+@media (max-width: 768px){
+  margin-top: 5px;
+  margin-left: 50px;
+}
 `
 
  const RoverName = styled.h2`
@@ -38,7 +58,6 @@ margin-left: -2em;
  text-align: center;
  margin: 0;
  `
-
 function PerseverancePage() {
   return (
     <ViewPage>
