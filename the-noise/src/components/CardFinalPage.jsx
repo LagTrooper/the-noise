@@ -52,22 +52,20 @@ const Card = ({ name, img }) => {
   };
 
   const CardButton = {
-   height: '2em',
-   borderRadius: '5px',
-   marginLeft: '100px',
-   marginTop: '20px',
-   border: 'none',
-   fontSize: '0.9rem',
-   fontFamily: 'Rajdhani'
+    color: '#EF3030',
+    boxShadow: '1px 1px 20px 0 #FFFFFF',
+    fontSize: '1em',
+    margin: '1em',
+    width:'10em',
+    padding: '0.25em 1em',
+    border: '2px solid #EF3030',
+    borderRadius: '3px',
+    height: '2em',
+    marginLeft: '40%',
+    marginTop: '20px',
+    fontFamily: 'Rajdhani',
   };
-//   const CardStatus = {
-//     fontSize: '0.9rem',
-//     fontFamily: 'Rajdhani',
-//     fontWeight: 300,
-//     color: '#2e2c2c',
-//     margin: 0,
-//     padding: '0 1rem',
-//   };
+
 
   return (
     <div style={CardContainer}>
@@ -76,9 +74,9 @@ const Card = ({ name, img }) => {
       <p>Mission Status: <strong>{infosRover.status}</strong></p>
       <p>Birthday: <strong>{infosRover.landing_date}</strong></p>
       <Link to={`/rover-profile/${name}`}>
-      <button type="button" style={CardButton}>
-        Learn more...
-      </button>
+        <button type='button' style={CardButton}>
+          Learn more...
+        </button>
       </Link>
     </div>
   );
