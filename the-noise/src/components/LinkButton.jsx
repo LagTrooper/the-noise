@@ -14,7 +14,7 @@ const LinkButton = (props) => {
     ...rest
   } = props
   return (
-    <button
+    <button className="final-button"
       {...rest} // `children` is just another prop!
       onClick={(event) => {
         onClick && onClick(event)

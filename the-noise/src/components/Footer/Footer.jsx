@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div class="footer-basic">
+    <footer class="footer-basic">
       <ul class="list-inline">
         <li class="list-inline-item">
         <Link to={`/`}>Home</Link>        </li>
@@ -24,7 +24,7 @@ const Footer = () => {
         </li>
       </ul>
       <p class="copyright">The Noise WildCodeSchool © 2021</p>
-    </div>
+    </footer>
   );
 };
 
