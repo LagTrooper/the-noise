@@ -15,6 +15,7 @@ const ContainerCard = styled.div`
 @media (min-width:768px) {
 display: flex;
 justify-content: space-evenly;
+flex-wrap: wrap;
 margin: 2em;
 width: 1000px;
 border: 1px solid #8A8A8A;
