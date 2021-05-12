@@ -12,7 +12,7 @@ img {
 .video-text {
   text-align: left;
   margin-left: 20px;
-  color: rgb(255, 44, 44);
+  text-shadow:0 0 1px #FE0000, 0 0 2px #FE0000, 0 0 20px #FE0000;color:#FE0000;
 }
 
 iframe {
