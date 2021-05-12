@@ -22,11 +22,6 @@
   padding-right: 10px;
 }
 
-.separator {
-  border-bottom: #910f0f 3px solid;
-  width: 200%;
-  margin-left: -100px;
-}
 
 .content ul a {
   color: rgb(73, 73, 73);
