@@ -1,4 +1,5 @@
 import React from 'react';
+import './Speech.css';
 
 function Speech(props) {
   const utterance = new SpeechSynthesisUtterance(props.song);
@@ -7,9 +8,9 @@ function Speech(props) {
   utterance.pitch = props.pitch;
 
   return (
-    <div>
-      <button onClick={() => speechSynthesis.speak(utterance)}>Speak</button>
-      <button onClick={() => speechSynthesis.cancel()}>Stop</button>
+    <div classname="song-button">
+      <button class="play-button" onClick={() => speechSynthesis.speak(utterance)}>Play</button>
+      <button class="stop-button" onClick={() => speechSynthesis.cancel()}>Stop</button>
     </div>
   );
 }
