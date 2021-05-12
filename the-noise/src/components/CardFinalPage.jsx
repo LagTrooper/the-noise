@@ -73,6 +73,7 @@ const Card = ({ name, img }) => {
     <div style={CardContainer}>
       <h1 style={CardTitle}>{name}</h1>
       <div style={ImgCardHeader} />
+      <p>Mission Status: <strong>{infosRover.status}</strong></p>
       <Link to={`/rover-profile/${name}`}>
       <button type="button" style={CardButton}>
         Learn more...
