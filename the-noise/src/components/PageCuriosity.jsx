@@ -33,7 +33,7 @@ margin-left: -2em;
 
  const RoverName = styled.h2`
  font-size: 2.2em;
- color: pink;
+ color: none;
  text-align: center;
  margin: 0;
  `
