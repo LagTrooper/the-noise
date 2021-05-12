@@ -1,6 +1,7 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -30,6 +31,7 @@ function Navbar() {
             </li>
             <li>
               <Link to={`/rover-profile/Spirit`}>#Spirit</Link>
+
             </li>
           </ul>
           <div className="separator">{null}</div>
