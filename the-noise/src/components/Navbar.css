@@ -19,15 +19,12 @@
 }
 
 .content li {
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
-
 .content ul a {
-  color: rgb(73, 73, 73);
+  text-shadow:0 0 2px #FE0000, 0 0 10px #FE0000, 0 0 20px #FE0000;color:#FE0000;
   text-decoration: none;
-  border-radius: 2px;
-  background-color: rgb(179, 180, 180);
 }
 
 .content ul a:hover {
@@ -36,5 +33,4 @@
 
 .wrapper .content .links li:hover {
   opacity: 1;
-  color: aqua;
 }
